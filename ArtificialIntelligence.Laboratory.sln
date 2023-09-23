@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "services", "services", "{8C550DBD-B1FF-47BB-9246-075B6C5AD24D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pong", "services\Pong\Pong.csproj", "{A0A3A27A-7731-4603-AC81-167E4E215DDE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IA", "services\IA\IA.csproj", "{B11F4BCB-C46D-4C37-A912-6641BDEF674A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A0A3A27A-7731-4603-AC81-167E4E215DDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0A3A27A-7731-4603-AC81-167E4E215DDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0A3A27A-7731-4603-AC81-167E4E215DDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0A3A27A-7731-4603-AC81-167E4E215DDE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B11F4BCB-C46D-4C37-A912-6641BDEF674A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B11F4BCB-C46D-4C37-A912-6641BDEF674A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B11F4BCB-C46D-4C37-A912-6641BDEF674A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B11F4BCB-C46D-4C37-A912-6641BDEF674A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A0A3A27A-7731-4603-AC81-167E4E215DDE} = {8C550DBD-B1FF-47BB-9246-075B6C5AD24D}
+		{B11F4BCB-C46D-4C37-A912-6641BDEF674A} = {8C550DBD-B1FF-47BB-9246-075B6C5AD24D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B0EE90C4-2CF3-4253-B06C-DAADF3289EF8}
+	EndGlobalSection
+EndGlobal
